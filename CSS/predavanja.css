@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    }
+.pozadina {
+	background-image: url("C:/Users/VIDOVIC/Desktop/Projektni zadatak/Slike/Pozadina.jpg");	
+    opacity: 80%;
+    }
+h1 {
+	font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    padding-top: 20px;
+    text-align: center;
+    width: 100%;
+    color: white;
+    }
+h2 {
+	font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    padding-top: 20px;
+    text-align: center;
+    width: 100%;
+    color: wheat;
+    }
+nav {
+    display: inline;
+    float: none;
+    position: relative;
+    padding-top: 100px;
+    left: 34%;
+    transform: translate(-50%, -50%);
+    }
+a:link {
+    font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+    color: black;
+    background-color: white;
+    padding: 10px;
+    line-height: 40px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    }
+a:hover{
+    color: white;
+    background-color: darkgray;
+    }
+#predavanja {
+    background-color: wheat;
+    color: black;
+    }
+iframe {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+    float: none;
+    position: relative;
+    left: 40%;
+    }
+.osvrt {
+    justify-content: center;
+    align-items: center;
+    float: none;
+    position: relative;
+    left: 40%;
+    top: -70px;
+    }
